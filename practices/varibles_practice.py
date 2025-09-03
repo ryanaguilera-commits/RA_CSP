@@ -11,4 +11,3 @@ name = input ("how much money")
 
 print("hello," name)
 
-print("green day")
