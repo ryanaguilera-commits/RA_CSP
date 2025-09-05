@@ -9,6 +9,12 @@ print (how_much)
 
 name = input ("how much money") 
 
-print("hello," name)
+print("hello", name)
 
 print("green day")
+
+
+num1 = 12
+num2 = 13
+
+print(round(num1/num2, 2))
