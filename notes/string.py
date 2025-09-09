@@ -9,7 +9,7 @@ sentence = "the quick brown fox jumps over the lazy dog"
 
 print("hello", first_name + " " + last_name)
  
-
-
+# Sanitization and stupid proofing
+ 
 
 
