@@ -13,13 +13,14 @@ print(f"the time is {readabletime}")
 
 now = datetime.datetime.now()
 
-
+seconds = now.second
 
 hour = now.hour
 
-
+minutes = now.minute
 
 print(f"the time is {now}")
 print(f"the hour is {hour}")
-
+print(f"the minutes is {minutes}")
+print(f"the number of seconds is {seconds}")
 
