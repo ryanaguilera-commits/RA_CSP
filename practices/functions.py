@@ -6,7 +6,7 @@ def welcome():
 
 
 print("this is not in my function")
-
+welcome()
 
 def add(number, number2):
     number += number2
@@ -22,7 +22,7 @@ add(8, 30)
 
 import random
 def roll(mod):
-    return random.randint(2, 20) + mod
+    return random.randint(2, 20) + mod 
 
 strength = roll(0)
 dexterity = roll(3)
