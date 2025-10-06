@@ -5,11 +5,14 @@ int main(void){
     float pi = 3.14; //4 bytes
     double long_pi = 3.14159265368; //8 bytes
     char letter; //1 byte
-    char name[] = "Ryan";
+    char name[50];
+
+    printf("what is your name: \n");
+    fgets(name, sizeof(name), stdin);
 
     printf("what is your grade as a whole number? \n");
     scanf("%d", &grade);
-
+    while (getchar() != '\n');
 
 
     printf("what is your grade as a letter \n");
